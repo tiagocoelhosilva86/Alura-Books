@@ -1,0 +1,60 @@
+
+
+.novidades__titulo {
+color: var(--azul);
+font-family: var(--fonte-principal);
+font-size: 18px;
+font-weight: 500;
+padding: 1.1em;
+}
+
+.novidade__texto {
+color: var(--azul-degrade);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 300;
+padding: 1.1em;
+}
+
+.novidade__pesquisa {
+
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    color: var(--azul-degrade);
+    border-radius: 24px;
+    width: 80%;
+    margin: 0em 2em;
+    padding: 1em;
+}
+
+.novidade__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul-degrade);
+    background: url(../img/Email.svg) no-repeat;
+    background-position: 1em;
+}
+
+.rodape {
+    background-color: var(--cinza);
+    padding: 17px 0 0 24px;
+    height: 50px
+}
+
+.rodape__texto {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--preto);
+    margin: 0.5em 1.5em;
+}
+
+.line {
+    border: 1px solid var(--line);
+    margin: 0;
+}
