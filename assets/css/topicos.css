@@ -7,6 +7,7 @@
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
+    padding: 1em;
 }
 
 .topicos__titulo {
@@ -36,4 +37,31 @@
     font-weight: 700;
     font-size: 14px;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .itens-lista {
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .topicos__lista {
+        width: 30%
+    }
+    
+    .banner-card__topicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        
+    }
 }
