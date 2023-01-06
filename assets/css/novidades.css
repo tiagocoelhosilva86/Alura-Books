@@ -68,6 +68,8 @@ padding: 1.1em;
 
 
 
+
+
 @media screen and (min-width: 1024px) {
     .novidades {
         display: flex;
@@ -132,6 +134,11 @@ padding: 1.1em;
         color: var(--cinza-escuro);
         text-decoration: none;
         margin: 0 1em;
+    }
+
+    .lista-rodape__item:hover {
+        transform: scale(1.1);
+        transition: 1s transform;
     }
     
 }

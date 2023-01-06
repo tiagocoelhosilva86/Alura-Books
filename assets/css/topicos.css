@@ -39,6 +39,8 @@
     text-decoration: none;
 }
 
+
+
 @media screen and (min-width: 1024px) {
     .topicos__titulo {
         font-size: 24px;
@@ -48,6 +50,10 @@
         font-size: 24px;
     }
     
+    .itens-lista:hover {
+        transform: scale(1.1);
+        transition: 1s transform;
+    }
 }
 
 @media screen and (min-width: 1728px) {

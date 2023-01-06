@@ -102,6 +102,11 @@ font-size: 14px;
         margin: 2em auto;
     }
 
+    .swiper-slide:hover {
+        transform: scale(1.1);
+        transition: 1s transform;
+    }
+
 }
 
 @media screen and (min-width: 1728px) {
